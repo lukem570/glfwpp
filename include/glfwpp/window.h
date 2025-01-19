@@ -16,7 +16,7 @@ namespace glfw
     {
         OpenGl = GLFW_OPENGL_API,
         OpenGles = GLFW_OPENGL_ES_API,
-        None = GLFW_NO_API
+        Nonee = GLFW_NO_API
     };
     enum class ContextCreationApi
     {
@@ -36,7 +36,7 @@ namespace glfw
     {
         Any = GLFW_ANY_RELEASE_BEHAVIOR,
         Flush = GLFW_RELEASE_BEHAVIOR_FLUSH,
-        None = GLFW_RELEASE_BEHAVIOR_NONE
+        Nonee = GLFW_RELEASE_BEHAVIOR_NONE
     };
     enum class OpenGlProfile
     {
