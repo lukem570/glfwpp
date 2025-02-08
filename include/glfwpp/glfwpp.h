@@ -151,7 +151,7 @@ namespace glfw
 
         std::vector<const char*> extensionNames;
         extensionNames.reserve(count);
-        for(int i = 0; i < count; ++i)
+        for(unsigned int i = 0; i < count; ++i)
         {
             extensionNames.push_back(pExtensionNames[i]);
         }
