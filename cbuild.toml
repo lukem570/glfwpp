@@ -1,0 +1,5 @@
+[package]
+name="glfwpp"
+version="0.0.1"
+description="c++ bindings for glfw"
+include="include"
